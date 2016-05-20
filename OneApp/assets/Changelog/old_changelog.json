@@ -1,0 +1,26 @@
+{
+   "1.0.0.6" : "2016/05/18
+
+*** IMPORTANT ***
+
+The unlock method has changed! 
+From now on, to unlock One App, you need to hold VOLUME UP button until you're asked for a password. There are no Notification to click and you don't need to turn screen OFF anymore.
+
+
+__OTHER CHANGES__
+- Added confirmation step when setting the password
+- Added Cancel button on password screen
+",
+   "1.0.0.4" : "2016/05/16
+   
+- New permission asked : Notifications Control
+
+This permission is needed to stop receiving Notifications in top of the screen while One App is locking the user inside an app.
+YOU ARE NOT FORCED TO ENABLE THIS PERMISSION. If you don't allow this permission, depending on your personal setting for Notification Profile, your phone might still show Notifications on top of the screen with the possibility to use Quick Reply for SMS/Email/BBM/WhatsApp. Also, if you don't allow this permission and have set your Notification Profile to 'Alerts Off', you will never get the One App notification after turning screen OFF then ON, therefore you will have to reboot the device to unlock One App.
+
+How OneApp will use this permission :
+- When you lock an app, One App saves your currently used Notification Profile. It then changes the Notification Profile to 'Alerts Off'.
+- When the screen is turned OFF then ON, the Notification Profile is quickly set to 'Normal', a One App Notification is shown to allow to unlock the app, and Notification Profile is set back to 'Alerts Off'.
+- When the password is entered successfully, the Notification Profile is set back to the user's profile.
+"
+}

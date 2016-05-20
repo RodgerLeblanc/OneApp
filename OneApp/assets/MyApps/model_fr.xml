@@ -1,0 +1,18 @@
+<model>
+	<item appName="PocketSafe"  price="0.99$" description="Bloquez le pocket typing." link="appworld://content/59967056"/>
+	<item appName="ProtectMe"  price="1.99$" description="Protégez votre appareil des voleurs." link="appworld://content/59962662"/>
+	<item appName="Bridge"  price="Freemium" description="Compagnon de votre Pebble et Vector smartwatch." link="appworld://content/59983189"/>
+	<item appName="Hub2Watch"  price="1.99$" description="Votre Hub sur votre Pebble." link="appworld://content/59952550"/>
+	<item appName="Silent Keys"  price="0.99$" description="Votre langue, votre façon. Seul et unique clavier numérique tierce." link="appworld://content/59945495"/>
+	<item appName="CellNinja Bundle"  price="5.99$" description="Toutes les apps CellNinja pour un seul petit prix." link="appworld://content/59973328"/>
+	<item appName="PhoneAbuser"  price="Gratuit" description="Gardez l'oeil sur votre dépendance à votre BlackBerry!" link="appworld://content/59942245"/>
+	<item appName="File System"  price="0.99$" description="Naviguez dans vos fichiers système, au-delà de File Manager." link="appworld://content/59950807"/>
+	<item appName="Volt"  price="1.99$" description="Obtenez les vrais données de votre batterie hors-norme." link="appworld://content/59935143"/>
+	<item appName="No Fly Zone"  price="Gratuit" description="Jeu démo sur les animations Cascades." link="appworld://content/59946084"/>
+	<item appName="Alarm2Watch"  price="0.99$" description="Alarme headless qui sonne votre téléphone et Pebble en même temps." link="appworld://content/50699889"/>
+	<item appName="CallerWatch"  price="Gratuit" description="Affichage de l'appelant sur Pebble." link="appworld://content/59942046"/>
+	<item appName="HomeScreen Pimp"  price="Gratuit" description="Personalise ton écran d'accueil en ajoutant des icônes invisibles." link="appworld://content/59944979"/>
+	<item appName="ConsoleDebug"  price="Gratuit" description="Développeurs : Obtenez une console de logs, même sans Momentics." link="appworld://content/59942507"/>
+	<item appName="Watch Notification"  price="Gratuit" description="Changez votre profil de Notification avec votre Pebble." link="appworld://content/59945044"/>
+	<item appName="United"  price="Gratuit" description="L'app officielle de United blogs." link="appworld://content/59957569"/>
+</model>
