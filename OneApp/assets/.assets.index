@@ -1,10 +1,11 @@
 1
-47
+48
 AppCover.qml
 Changelog/changelog.json
 Changelog/ChangelogContainer.qml
 Changelog/old_changelog.json
 Credits.txt
+CustomElements/CustomDivider.qml
 CustomElements/SituationTemplate.qml
 images/appIcon480.png
 images/appIcon96.png

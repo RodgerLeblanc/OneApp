@@ -4,40 +4,49 @@ Container {
     property alias imageSource: imageView.imageSource
     property alias text: label.text
     
-    layout: StackLayout { orientation: LayoutOrientation.LeftToRight }
-    horizontalAlignment: HorizontalAlignment.Center
     topMargin: _ui.du(4)
     bottomMargin: topMargin
+    visible: label.text != ""
     
-    ImageView {
-        id: imageView
-        verticalAlignment: VerticalAlignment.Center
-        maxHeight: _ui.du(20)
-        minHeight: maxHeight
-        minWidth: maxHeight
-        scalingMethod: ScalingMethod.AspectFit
-    }
+    CustomDivider {}
+    
     Container {
-        layout: DockLayout {}
-        verticalAlignment: VerticalAlignment.Center
+        layout: StackLayout { orientation: LayoutOrientation.LeftToRight }
+        horizontalAlignment: HorizontalAlignment.Center
+        
         ImageView {
-            imageSource: "asset:///images/border_bubble.amd"
-            verticalAlignment: VerticalAlignment.Fill
-            horizontalAlignment: HorizontalAlignment.Fill
+            id: imageView
+            verticalAlignment: VerticalAlignment.Center
+            maxHeight: _ui.du(20)
+            minHeight: maxHeight
+            minWidth: maxHeight
+            scalingMethod: ScalingMethod.AspectFit
         }
         Container {
-            topPadding: 15
-            bottomPadding: topPadding
-            rightPadding: topPadding
-            leftPadding: 55
-            Label {
-                id: label
-                multiline: true
-                textStyle.textAlign: TextAlign.Justify
-                textStyle.fontSize: FontSize.Large
-                textStyle.color: Color.create("#640D38")
-                textStyle.fontFamily: "Comic Sans MS"
+            layout: DockLayout {}
+            verticalAlignment: VerticalAlignment.Center
+            ImageView {
+                imageSource: "asset:///images/border_bubble.amd"
+                verticalAlignment: VerticalAlignment.Fill
+                horizontalAlignment: HorizontalAlignment.Fill
+            }
+            Container {
+                topPadding: 15
+                bottomPadding: topPadding
+                rightPadding: topPadding
+                leftPadding: 55
+                Label {
+                    id: label
+                    multiline: true
+                    textStyle.textAlign: TextAlign.Justify
+                    textStyle.fontSize: FontSize.Large
+                    textStyle.color: Color.create("#640D38")
+                    textStyle.fontFamily: "Comic Sans MS"
+                }
             }
         }
+    
     }
+    
+    CustomDivider {}
 }

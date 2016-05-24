@@ -104,10 +104,6 @@
 <context>
     <name>NormalUiContainer</name>
     <message>
-        <source>Lock</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Can I borrow your phone to sneak... I mean to make a phone call?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -130,7 +126,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Today, you&apos;ll take your BlackBerry 10 device and demo our new app at the event. Don&apos;t let users get out of our app, or you&apos;re fired.</source>
+        <source>Today, you&apos;ll take your BlackBerry 10 device and demo our new application at the event. Remember all our internal documents are on there too, don&apos;t let users get out of our application, or you&apos;re fired!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lock to one application</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

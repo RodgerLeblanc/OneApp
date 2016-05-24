@@ -1,19 +1,8 @@
 {
-   "1.0.0.7" : "2016/05/20
+   "1.0.0.9" : "2016/05/24
 
-- Changed text within the app
-- Added warning about limitations of the app (those were present in the Beta Zone description, completely forgot to include them in the BlackBerry World version)
-- Swapped 'OK' and 'Cancel' buttons in password screen to match the default order found in other apps of the OS
-",
-   "1.0.0.6" : "2016/05/18
-
-*** IMPORTANT ***
-
-The unlock method has changed! 
-From now on, to unlock One App, you need to hold VOLUME UP button until you're asked for a password. There are no Notification to click and you don't need to turn screen OFF anymore.
-
-
-__OTHER CHANGES__
-- Added confirmation step when setting the password
-- Added Cancel button on password screen"
+- Changed text a bit
+- Added a tie to boss image to emphasize his status
+- New animation to go through the list of scenarios where One App is useful
+"
 }

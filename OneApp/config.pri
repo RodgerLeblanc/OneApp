@@ -41,6 +41,7 @@ config_pri_assets {
         $$quote($$BASEDIR/assets/Changelog/changelog.json) \
         $$quote($$BASEDIR/assets/Changelog/old_changelog.json) \
         $$quote($$BASEDIR/assets/Credits.txt) \
+        $$quote($$BASEDIR/assets/CustomElements/CustomDivider.qml) \
         $$quote($$BASEDIR/assets/CustomElements/SituationTemplate.qml) \
         $$quote($$BASEDIR/assets/ListViewContainer.qml) \
         $$quote($$BASEDIR/assets/MyApps/Alarm2Watch.png) \
